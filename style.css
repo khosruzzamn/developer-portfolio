@@ -13,7 +13,7 @@ h1{
     color: orange;
 }
 
-section{
+.flaxable-container{
     display: flex;
 }
 .half-width{
@@ -44,3 +44,31 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.experience-item{
+    
+    width: 40%;
+    padding: 3%;
+    border-color: red;
+    border-left: 5px;
+
+}
+#full-stack{
+
+ box-shadow: 2px 2px 3px 2px gray;
+ margin-right: 2%;;
+ border-left: 12px solid #f9715c;
+}
+#baby-devloper{
+
+    box-shadow: 2px 2px 3px 2px gray;
+    margin-left: 2%;
+    border-right: 12px solid #f9715c;;
+
+   }
+
+
